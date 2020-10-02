@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+.beef, .chicken, .sushi {
+    float: right;
+    background-color: aliceblue;
+    padding: 10px;
+ }
+
+ 
