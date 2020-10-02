@@ -2,10 +2,68 @@ h1 {
     text-align: center;
 }
 
-.beef, .chicken, .sushi {
+#chicken {
     float: right;
-    background-color: aliceblue;
-    padding: 10px;
+}
+
+#beef {
+    float: right;
+}
+
+#sushi {
+    float: right;
+}
+ .row {
+     width: 100%;
  }
 
+ div{
+     position: relative;
+ }
+
+ body {
+     background-color: white;
+ }
+
+ p {
+     text-align: justify;
+ }
+
+ div.row {
+     width: 100%;
+ }
+
+ /********** Large devices only **********/
+@media (min-width: 1200px) {
+    .col-lg-4{
+      float: left;
+      border: 1px solid black;
+      width: 33.33%;
+      padding: 10px;
+      margin: 10px;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-6, .col-md-12 {
+      float: left;
+      border: 1px solid black;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+  }
+
+  /********** Small devices only **********/
+  @media (max-width: 768px) {
+    .col-md-12 {
+      float: left;
+      border: 1px solid black;
+      width: 100%;
+    }
+  }
  
