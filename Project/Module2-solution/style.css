@@ -1,7 +1,10 @@
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
+}
+
 h1 {
-<<<<<<< HEAD
-    text-align: center;
-=======
 	font-family: Brushstroke, fantasy;
 	color: #000;
 	text-align: center;
@@ -37,76 +40,37 @@ section {
 	color: black;
 	position: relative;
 	overflow: auto;
->>>>>>> oys
 }
 
 #chicken {
-    float: right;
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #FFFF00;
 }
 
 #beef {
-    float: right;
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #FF1439;
 }
 
 #sushi {
-<<<<<<< HEAD
-    float: right;
-}
- .row {
-     width: 100%;
- }
-
- div{
-     position: relative;
- }
-
- body {
-     background-color: white;
- }
-
- p {
-     text-align: justify;
- }
-
- div.row {
-     width: 100%;
- }
-
- /********** Large devices only **********/
-@media (min-width: 1200px) {
-    .col-lg-4{
-      float: left;
-      border: 1px solid black;
-      width: 33.33%;
-      padding: 10px;
-      margin: 10px;
-    }
-  }
-  
-  /********** Medium devices only **********/
-  @media (min-width: 992px) and (max-width: 1199px) {
-    .col-md-6, .col-md-12 {
-      float: left;
-      border: 1px solid black;
-    }
-    .col-md-6 {
-      width: 50%;
-    }
-    .col-md-12 {
-      width: 100%;
-    }
-  }
-
-  /********** Small devices only **********/
-  @media (max-width: 768px) {
-    .col-md-12 {
-      float: left;
-      border: 1px solid black;
-      width: 100%;
-    }
-  }
- 
-=======
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -120,7 +84,6 @@ section {
 	background-color: #6495ED;
 	color: white;
 }
-
 /* Desktop view */
 
 @media (min-width: 992px) {
@@ -151,4 +114,3 @@ section {
     float: left;
   }
 }
->>>>>>> oys
