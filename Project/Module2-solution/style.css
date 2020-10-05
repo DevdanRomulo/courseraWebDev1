@@ -24,7 +24,8 @@ p {
 .container {
 	border: 1px solid #000;
 	margin: 10px auto;
-	padding: 10px;
+  padding: 10px;
+  background-color: gray;
 }
 
 .row {
